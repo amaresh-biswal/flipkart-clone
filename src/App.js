@@ -8,11 +8,13 @@ import Jewelery from './screens/Jewelery';
 import MensClothing from './screens/MensClothing';
 import WomensClothing from './screens/WomensClothing';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 function App() {
   return (
     <div className="App" style={{backgroundColor:"#F1F2F4"}}>
       <Header/>
-      <br />
       <Navbar/>
 
       <Routes>
