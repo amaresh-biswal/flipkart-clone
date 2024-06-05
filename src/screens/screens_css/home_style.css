@@ -1,0 +1,30 @@
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .category {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .products {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .product {
+    margin-right: 30px; /* Adjust spacing between products */
+  }
+  .eachProduct{
+    margin-right: 30px;
+  }
+  
+  .arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-top: 10px;
+  }
+  
