@@ -10,6 +10,7 @@ import WomensClothing from './screens/WomensClothing';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import ProductView from './components/ProductView';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/Jewelery' element={<Jewelery/>}/>
         <Route exact path='/MensClothing' element={<MensClothing/>}/>
         <Route exact path='/WomensClothing' element={<WomensClothing/>}/>
+        <Route exact path='/ProductView' element={<ProductView/>}/>
       </Routes>
     </div>
   );

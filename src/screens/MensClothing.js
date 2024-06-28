@@ -17,10 +17,12 @@ export default function MensClothing() {
           .filter(product => product.category === "men's clothing")
           .map((product) => (
             <Card
-              key={product.id}
-              title={product.title}
-              price={product.price}
-              image={product.image}
+            key={product.id}
+            title={product.title}
+            price={product.price}
+            category={product.category}
+            description={product.description}
+            image={product.image}
             />
           ))}
       </div>
